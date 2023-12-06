@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Foto Jose.jpg" alt="">
+            </div>
+            <h1>Jose Torrealba</h1>
+            <h2>EDITOR DE VIDEO - PROGRAMADOR</h2>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>¡Hola! Soy José Torrealba,</span> Editor y programador con una rápida capacidad de aprendizaje. Mi enfoque se centra en la excelencia y la creatividad. Destaco en la edición de video y desarrollo de soluciones técnicas. Comprometido con resultados que superan expectativas. ¡Listo para aportar mi experiencia a tu proyecto!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            18-01-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +58 0414-5561624
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            editorjose18@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Portuguesa, Venezuela
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Editor</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- Habilidades Profesionales -->
+                <div class="col">
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Analisis de sistema</h4>
+                        <span class="casa">Universidad IUTEPI</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>Estudiante apasionado y comprometido con la carrera de analisis en sistemas cursando cuarto semestre en el Instituto Universitario de Tecnoligia Para la Informatica</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>SECUNDARIA</h4>
+                        <span class="casa">Colegio "Angel de la Guarda"</span>
+                        <span class="fecha">2014 - 2019</span>
+                        <p>Estudiante aplicado cumpliendo con todas las espectativas de las materias cursantes en cada etapa</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>PRIMARIA</h4>
+                        <span class="casa">Colegio "Angel de la Guarda"</span>
+                        <span class="fecha">2008 - 2013</span>
+                        <p>Estudiante dedicado y entusiasta en, demostrando un amor por el aprendizaje y un espíritu positivo. Con una curiosidad innata.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>EDITOR DE VIDEO</h4>
+                        <span class="casa">Edicion de video J/R</span>
+                        <span class="fecha">2023-ACTUALIDAD</span>
+                        <p>Editor altamente productivo y responsable. Mi enfoque proactivo y meticuloso me ha permitido contribuir significativamente al éxito de proyectos editoriales diversos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Criof</h4>
+                        <span class="casa">criof.net</span>
+                        <span class="fecha">2023-ACTUALIDAD</span>
+                        <p>Contribuidor a edicion de diversos tipos de videos siempre trabajando acorde a instrucciones y cumpliendo con las espectativas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Inversor</h4>
+                        <span class="casa">Tokkens/NFT/Cryptos</span>
+                        <span class="fecha">2018 - 2020</span>
+                        <p> inversor experimentado con un historial comprobado de éxitos en la identificación y aprovechamiento de oportunidades financieras. Apasionado y visionario especializado en el emocionante mundo de los juegos basados en tecnología NFT</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <iframe width="320" height="569" src="https://www.youtube.com/embed/pR7mLguBL4k" title="Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="overlay">
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <iframe width="320" height="569" src="https://www.youtube.com/embed/GPbQFAQzXqM" title="Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    <div class="overlay">
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <iframe width="320" height="569" src="https://www.youtube.com/embed/iyPfxA4UVjU" title="Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    <div class="overlay">
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/miniatura.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 1</h3>
+                        <a href="https://www.youtube.com/watch?v=5GGTWOuPTpE&t=53s" target="_blank"><p>Video de Youtube</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/miniatura 3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto 2</h3>
+                        <a href="https://www.youtube.com/watch?v=c8jO5UR77bI&t=439s" target="_blank"><p>Video de Youtube</p></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/miniatura 2.jpg" alt="" width="340" height="192"></a>
+                    <div class="overlay">
+                        <h3>Proyecto 3</h3>
+                        <a href="https://www.youtube.com/watch?v=SfEDmuUaSMs" target="_blank"><p>Video de Yutube</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion2.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Urb. "Altos de Camorucos"
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contactame: 0414-5561624 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: editorjose18@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/jose_torrealba18/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
